@@ -1,0 +1,19 @@
+<h1>EMPLOYEE DETAILS</h1>
+<hr>
+
+<table id="users">
+  <tr>
+    <th *ngFor = "let column of headers">
+      {{column}}
+    </th>
+  </tr>
+
+  <tr *ngFor = "let row of rows">
+    <td *ngFor = "let column of headers">
+      {{row[column]}}
+    </td>
+  </tr>
+
+</table>
+<button class="button1">OK</button>
+<button class="button2">BACK</button>

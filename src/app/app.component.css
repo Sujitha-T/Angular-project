@@ -1,0 +1,51 @@
+h1
+{
+    text-align: center;
+    color:brown;
+}
+
+
+#users {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #users td, #users th {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+  }
+  
+  #users tr:nth-child(odd){background-color: #850ae9;}
+  
+  #users tr:hover {background-color: rgb(221, 221, 221);}
+  
+  #users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(37, 9, 114);
+    color: rgb(213, 204, 221);
+  }
+  .button1{
+    text-align: center;
+    border: 10%;
+    border-color:rgb(61, 7, 105);
+    border-radius: 20%;
+    margin-top:10%;
+    margin-left:45%;
+    background-color:rgb(14, 224, 49);
+  }
+
+  .button2{
+    text-align: center;
+    border: 10%;
+    border-color:rgb(61, 7, 105);
+    border-radius: 20%;
+    margin-top:10%;
+    margin-left:15%;
+    background-color:rgb(240, 21, 21);
+  }
+  
